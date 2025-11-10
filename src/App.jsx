@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 
-const API_URL = import.meta.env.VITE_API_URL ?? 'http://127.0.0.1:8000/api/ask/'
+const API_URL = import.meta.env.VITE_API_URL ?? 'https://reserchaai.onrender.com/api/ask/'
 
 const suggestions = [
   'How is AI used to detect early-stage Alzheimer’s disease?',
